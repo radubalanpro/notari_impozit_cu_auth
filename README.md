@@ -24,6 +24,7 @@ npm run serve
 npm run build
 ```
 
-git commit -a -m "cateva actualizari"
+git add -A
+git commit -m "cateva actualizari"
 git push -u origin
 git subtree push --prefix dist origin gh-pages
